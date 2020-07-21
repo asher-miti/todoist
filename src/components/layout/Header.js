@@ -9,16 +9,16 @@ export const Header = () => {
       <nav>
         <div className="logo">
           <img src="../images/logo.png" alt="Todoist" />
-          <div className="settings">
-            <ul>
-              <li data-testid="quick-add-task-action" className="settings__add">
-                +
-              </li>
-              <li data-testid="dark-mode-action" className="settings__darkmode">
-                <FaPizzaSlice />
-              </li>
-            </ul>
-          </div>
+        </div>
+        <div className="settings">
+          <ul>
+            <li data-testid="quick-add-task-action" className="settings__add">
+              +
+            </li>
+            <li data-testid="dark-mode-action" className="settings__darkmode">
+              <FaPizzaSlice />
+            </li>
+          </ul>
         </div>
       </nav>
     </header>

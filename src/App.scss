@@ -213,8 +213,8 @@ header {
   height: calc(100vh);
   padding-top: 74px;
   position: fixed;
-  overlay-x: hidden;
-  overlay-y: hidden;
+  overflow-x: hidden;
+  overflow-y: hidden;
   border-right: $generic-border;
   background-color: #fafafa;
 
@@ -334,6 +334,11 @@ header {
             color: #555;
           }
         }
+      }
+      &.active,
+      &:hover {
+        font-weight: bold;
+        background-color: #fff;
       }
     }
   }
